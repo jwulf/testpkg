@@ -1,1 +1,6 @@
-module.exports = "Live code from the GitHubz";
+module.exports = {
+    spells: {
+        _default: () => magikcraft.io.dixit('Hello world'),
+        jump: () => magikcraft.io.exsultus(100)
+    }
+};
